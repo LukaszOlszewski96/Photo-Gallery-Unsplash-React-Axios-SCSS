@@ -4,3 +4,5 @@
 
 ![image](https://user-images.githubusercontent.com/57043892/145482543-fdbf7544-37d7-4cdb-9851-827caea99216.png)
 
+You can test the application by going to the link: https://lukaszolszewski96.github.io/Photo-Gallery-Unsplash-React-Axios-SCSS/
+
