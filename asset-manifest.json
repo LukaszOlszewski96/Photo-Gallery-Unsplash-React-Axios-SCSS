@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Photo-Gallery-Unsplash-React-Axios-SCSS/static/css/main.144bbb65.chunk.css",
+    "main.js": "/Photo-Gallery-Unsplash-React-Axios-SCSS/static/js/main.94447159.chunk.js",
+    "main.js.map": "/Photo-Gallery-Unsplash-React-Axios-SCSS/static/js/main.94447159.chunk.js.map",
+    "runtime-main.js": "/Photo-Gallery-Unsplash-React-Axios-SCSS/static/js/runtime-main.4f4cf53b.js",
+    "runtime-main.js.map": "/Photo-Gallery-Unsplash-React-Axios-SCSS/static/js/runtime-main.4f4cf53b.js.map",
+    "static/js/2.d8686d69.chunk.js": "/Photo-Gallery-Unsplash-React-Axios-SCSS/static/js/2.d8686d69.chunk.js",
+    "static/js/2.d8686d69.chunk.js.map": "/Photo-Gallery-Unsplash-React-Axios-SCSS/static/js/2.d8686d69.chunk.js.map",
+    "index.html": "/Photo-Gallery-Unsplash-React-Axios-SCSS/index.html",
+    "static/css/main.144bbb65.chunk.css.map": "/Photo-Gallery-Unsplash-React-Axios-SCSS/static/css/main.144bbb65.chunk.css.map",
+    "static/js/2.d8686d69.chunk.js.LICENSE.txt": "/Photo-Gallery-Unsplash-React-Axios-SCSS/static/js/2.d8686d69.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f4cf53b.js",
+    "static/js/2.d8686d69.chunk.js",
+    "static/css/main.144bbb65.chunk.css",
+    "static/js/main.94447159.chunk.js"
+  ]
+}
