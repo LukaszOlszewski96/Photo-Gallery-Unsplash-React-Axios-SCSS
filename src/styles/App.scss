@@ -1,0 +1,159 @@
+$colors: (
+    background-app: #fff,
+    font: rgb(179, 179, 179),
+    input-font: #000,
+    border: rgba(113, 112, 112, 0.306),
+    input: rgba(202, 202, 202, 0.489),
+    background-details: rgba(50, 50, 50, 0.959),
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+  }
+
+$font-size: (
+  logo: 2em,
+
+);
+
+@function font-size($f-size) {
+    @return map-get($font-size, $f-size )
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    .app {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden ;
+        background-color: color(background-app);
+    }
+    
+    .app-header {
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation{
+        width: 50%;
+        height: auto;
+
+        .search-box {
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            background-color: color(input);
+            
+            .search-input {
+                background-color: transparent;
+                width: 100%;
+                height: 100%;
+                outline: none;
+                border: none;
+                color: color(input-font);
+            }
+        }
+
+        .search-box :nth-child(1) {
+            margin: 0 10px 0 10px;
+            color: color(font);
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+
+
+        .search-box :nth-child(3) {
+            margin: 0 15px 0 10px;
+            color: color(font);
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+    }
+
+    .container-title {
+        width: 100%;
+        height: 80px;
+        margin-top: 20px;
+
+        .title {
+            margin-left: 5vw;
+            font-size: 2em;
+        }
+    }
+
+    .container-photo {
+        height: auto;
+        width: 90%;
+        margin: auto;
+
+        .card:hover img {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .photo-details {
+        position: fixed;
+        display: flex;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: color(background-details);
+        
+        .details-avatar {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: color(background-details);
+
+
+            .info-photo {
+                width: auto;
+                height: auto;
+
+                .info {
+                    margin-top: 5px;
+                    padding-left: 5%;
+                    padding-bottom: 10px;
+                    font-size: 1.3em;
+                    color: color(background-app);
+                }
+            }
+
+            .exit {
+                color: color(background-app);
+                font-size: 40px;
+                position: absolute;
+                right: 0;
+                top: 0;
+                margin-right: 20px;
+                margin-top: 10px;
+                cursor: pointer;
+
+            }
+        }
+        
+    }
+}
